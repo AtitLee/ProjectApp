@@ -21,10 +21,8 @@ const RegisterScreen = ({ navigation }) => {
 
     return (
       <View style={styles.container}>
+        <Text>Nice to meet you</Text>
         <View style={styles.flame}>
-        <Text style={styles.title}>
-          Registration {username} {password}
-        </Text>
         <SearchBox
           placeholder={"Username"}
           value={username}
