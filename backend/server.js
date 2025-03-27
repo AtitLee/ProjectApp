@@ -13,7 +13,7 @@ const pool = new Pool({
   host: "localhost",  // หรือ URL ของ PostgreSQL
   port: 5432,
   user: "postgres",  // เปลี่ยนให้ตรงกับข้อมูลของคุณ
-  password: "4480",  // เปลี่ยนให้ตรงกับข้อมูลของคุณ
+  password: "Atlee951@",  // เปลี่ยนให้ตรงกับข้อมูลของคุณ
   database: "proapp",  // ชื่อฐานข้อมูล
 });
 

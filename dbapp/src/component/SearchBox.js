@@ -5,7 +5,7 @@ import Feather from "@expo/vector-icons/Feather"
 const SearchBox =({placeholder,value,onChangeText,secure}) => {
     return (
         <View style = {styles.container}>
-            <Feather name = "search" size = {26} color="#888" style={styles.icon} />
+            {/* <Feather name = "search" size = {26} color="#888" style={styles.icon} /> */}
             <TextInput
             style = {styles.input}
             placeholder={placeholder}
